@@ -61,7 +61,7 @@ export default class HeaderLogo extends Component {
     /**
      * Props for link component. See <Link /> component for details
      */
-    linkProps: PropTypes.string,
+    linkProps: PropTypes.object,
   }
 
   static defaultProps = {
