@@ -74,6 +74,10 @@ yarn release
 
 ## Changelog
 
+### 6.53.1
+
+- Added `linkProps` prop to `HeaderLogo` for adding props into `Link` component.
+
 ### 6.53.0
 
 - Added a `throttleClick` prop to `AddToCartButton` with a default of 250 milliseconds to help prevent users from adding a product to their cart multiple times by accident.
