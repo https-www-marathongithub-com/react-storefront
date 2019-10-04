@@ -188,7 +188,8 @@ export default class Image extends Component {
       layout: amp ? this.ampLayout() : null,
       height,
       width,
-      alt
+      alt,
+      'amp-bind': imgAttributes['amp-bind']
     }
 
     let result = (
@@ -254,7 +255,8 @@ export default class Image extends Component {
   getOptimizedSrc() {
     const { src, quality, optimize } = this.props
 
-    if (quality || Object.keys(optimize).length > 0) {
+    const isVariable = src.indexOf('{{') === 0
+    if (!isVariable && (quality || Object.keys(optimize).length > 0)) {
       const options = { ...optimize, img: src }
       if (quality) options.quality = quality
       return `https://opt.moovweb.net/?${qs.stringify(options)}`

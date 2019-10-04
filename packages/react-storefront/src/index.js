@@ -44,6 +44,8 @@ export { default as PWA } from './PWA.js';
 export { default as PageLink } from './PageLink.js';
 export { default as Pages } from './Pages.js';
 export { default as ProductLink } from './ProductLink.js';
+export { default as ProductThumbnail } from './ProductThumbnail.js';
+export { default as ProductTileColors } from './ProductTileColors.js';
 export { default as PromoBanner } from './PromoBanner.js';
 export { default as QuantitySelector } from './QuantitySelector.js';
 export { default as Rating } from './Rating.js';

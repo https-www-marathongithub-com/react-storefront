@@ -6,13 +6,13 @@ import classnames from 'classnames'
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { PropTypes as MobxPropTypes } from 'mobx-react'
-import withStyles from '@material-ui/core/styles/withStyles'
+import withStyleProps from './withStyleProps'
 import Button from '@material-ui/core/Button'
 import Image from './Image'
 import Typography from '@material-ui/core/Typography'
 import { inject, observer } from 'mobx-react'
 
-export const styles = theme => ({
+export const styles = ({ theme, small }) => ({
   buttons: {
     display: 'flex',
     flexWrap: 'wrap',
@@ -33,10 +33,10 @@ export const styles = theme => ({
   },
   buttonWithImage: {
     '& button': {
-      width: '50px',
-      minWidth: '50px',
-      height: '50px',
-      minHeight: '50px'
+      width: small ? '25px' : '50px',
+      minWidth: small ? '25px' : '50px',
+      height: small ? '25px' : '50px',
+      minHeight: small ? '25px' : '50px'
     }
   },
   selectedImage: {
@@ -63,7 +63,7 @@ export const styles = theme => ({
     left: 0,
     right: 0,
     bottom: 0,
-    padding: '5px'
+    padding: small ? '2px' : '5px'
   },
   image: {
     height: '100%',
@@ -100,7 +100,7 @@ export const styles = theme => ({
  * This component supports AMP.
  */
 @inject(({ app, ampStateId }) => ({ amp: app.amp, ampStateId }))
-@withStyles(styles, { name: 'RSFButtonSelector' })
+@withStyleProps(styles, { name: 'RSFButtonSelector' })
 @observer
 export default class ButtonSelector extends Component {
   static propTypes = {
@@ -148,7 +148,12 @@ export default class ButtonSelector extends Component {
     /**
      * The angle in degress for the disabled indicator.  Defaults to `45`.
      */
-    strikeThroughAngle: PropTypes.number
+    strikeThroughAngle: PropTypes.number,
+
+    /**
+     * Render image options at half size. Defaults to `false`
+     */
+    small: PropTypes.bool
   }
 
   static defaultProps = {
