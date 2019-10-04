@@ -18,7 +18,7 @@ exports[`ImageSwitcher only shows images by default, no bells and whistles 1`] =
                             <inject-Image notFoundSrc={[undefined]} src="/a.jpg" alt={[undefined]} onLoad={[Function]} classes={{...}}>
                               <Image notFoundSrc={[undefined]} src="/a.jpg" alt={[undefined]} onLoad={[Function]} classes={{...}} amp={false} quality={{...}} contain={false} fill={false} lazy={false} lazyOffset={100} optimize={{...}}>
                                 <div className="RSFImage-root-28">
-                                  <img src="/a.jpg" className="" layout={{...}} height={[undefined]} width={[undefined]} alt={[undefined]} onLoad={[Function]} onError={[Function]} />
+                                  <img src="/a.jpg" className="" layout={{...}} height={[undefined]} width={[undefined]} alt={[undefined]} amp-bind={[undefined]} onLoad={[Function]} onError={[Function]} />
                                 </div>
                               </Image>
                             </inject-Image>
@@ -290,7 +290,7 @@ exports[`ImageSwitcher should render arrows 1`] = `
                             <inject-Image notFoundSrc={[undefined]} src="/a.jpg" alt={[undefined]} onLoad={[Function]} classes={{...}}>
                               <Image notFoundSrc={[undefined]} src="/a.jpg" alt={[undefined]} onLoad={[Function]} classes={{...}} amp={false} quality={{...}} contain={false} fill={false} lazy={false} lazyOffset={100} optimize={{...}}>
                                 <div className="RSFImage-root-172">
-                                  <img src="/a.jpg" className="" layout={{...}} height={[undefined]} width={[undefined]} alt={[undefined]} onLoad={[Function]} onError={[Function]} />
+                                  <img src="/a.jpg" className="" layout={{...}} height={[undefined]} width={[undefined]} alt={[undefined]} amp-bind={[undefined]} onLoad={[Function]} onError={[Function]} />
                                 </div>
                               </Image>
                             </inject-Image>
@@ -384,7 +384,7 @@ exports[`ImageSwitcher should render indicator dots 1`] = `
                             <inject-Image notFoundSrc={[undefined]} src="/a.jpg" alt={[undefined]} onLoad={[Function]} classes={{...}}>
                               <Image notFoundSrc={[undefined]} src="/a.jpg" alt={[undefined]} onLoad={[Function]} classes={{...}} amp={false} quality={{...}} contain={false} fill={false} lazy={false} lazyOffset={100} optimize={{...}}>
                                 <div className="RSFImage-root-228">
-                                  <img src="/a.jpg" className="" layout={{...}} height={[undefined]} width={[undefined]} alt={[undefined]} onLoad={[Function]} onError={[Function]} />
+                                  <img src="/a.jpg" className="" layout={{...}} height={[undefined]} width={[undefined]} alt={[undefined]} amp-bind={[undefined]} onLoad={[Function]} onError={[Function]} />
                                 </div>
                               </Image>
                             </inject-Image>
@@ -478,7 +478,7 @@ exports[`ImageSwitcher should render thumbnails 1`] = `
                             <inject-Image notFoundSrc={[undefined]} src="/a.jpg" alt={[undefined]} onLoad={[Function]} classes={{...}}>
                               <Image notFoundSrc={[undefined]} src="/a.jpg" alt={[undefined]} onLoad={[Function]} classes={{...}} amp={false} quality={{...}} contain={false} fill={false} lazy={false} lazyOffset={100} optimize={{...}}>
                                 <div className="RSFImage-root-84">
-                                  <img src="/a.jpg" className="" layout={{...}} height={[undefined]} width={[undefined]} alt={[undefined]} onLoad={[Function]} onError={[Function]} />
+                                  <img src="/a.jpg" className="" layout={{...}} height={[undefined]} width={[undefined]} alt={[undefined]} amp-bind={[undefined]} onLoad={[Function]} onError={[Function]} />
                                 </div>
                               </Image>
                             </inject-Image>
@@ -569,7 +569,7 @@ exports[`ImageSwitcher should render thumbnails 1`] = `
                                                 <inject-Image src="/at.jpg" alt={[undefined]} className="RSFImageSwitcher-thumbnail-63" notFoundSrc={[undefined]} fill={true} classes={{...}}>
                                                   <Image src="/at.jpg" alt={[undefined]} className="RSFImageSwitcher-thumbnail-63" notFoundSrc={[undefined]} fill={true} classes={{...}} amp={false} quality={{...}} contain={false} lazy={false} lazyOffset={100} optimize={{...}}>
                                                     <div className="RSFImageSwitcher-thumbnail-63 RSFImage-root-84 RSFImage-fill-87">
-                                                      <img src="/at.jpg" className="" layout={{...}} height={[undefined]} width={[undefined]} alt={[undefined]} onError={[Function]} />
+                                                      <img src="/at.jpg" className="" layout={{...}} height={[undefined]} width={[undefined]} alt={[undefined]} amp-bind={[undefined]} onError={[Function]} />
                                                     </div>
                                                   </Image>
                                                 </inject-Image>
@@ -599,7 +599,7 @@ exports[`ImageSwitcher should render thumbnails 1`] = `
                                                 <inject-Image src="/bt.jpg" alt={[undefined]} className="RSFImageSwitcher-thumbnail-63" notFoundSrc={[undefined]} fill={true} classes={{...}}>
                                                   <Image src="/bt.jpg" alt={[undefined]} className="RSFImageSwitcher-thumbnail-63" notFoundSrc={[undefined]} fill={true} classes={{...}} amp={false} quality={{...}} contain={false} lazy={false} lazyOffset={100} optimize={{...}}>
                                                     <div className="RSFImageSwitcher-thumbnail-63 RSFImage-root-84 RSFImage-fill-87">
-                                                      <img src="/bt.jpg" className="" layout={{...}} height={[undefined]} width={[undefined]} alt={[undefined]} onError={[Function]} />
+                                                      <img src="/bt.jpg" className="" layout={{...}} height={[undefined]} width={[undefined]} alt={[undefined]} amp-bind={[undefined]} onError={[Function]} />
                                                     </div>
                                                   </Image>
                                                 </inject-Image>
@@ -629,7 +629,7 @@ exports[`ImageSwitcher should render thumbnails 1`] = `
                                                 <inject-Image src="/ct.jpg" alt={[undefined]} className="RSFImageSwitcher-thumbnail-63" notFoundSrc={[undefined]} fill={true} classes={{...}}>
                                                   <Image src="/ct.jpg" alt={[undefined]} className="RSFImageSwitcher-thumbnail-63" notFoundSrc={[undefined]} fill={true} classes={{...}} amp={false} quality={{...}} contain={false} lazy={false} lazyOffset={100} optimize={{...}}>
                                                     <div className="RSFImageSwitcher-thumbnail-63 RSFImage-root-84 RSFImage-fill-87">
-                                                      <img src="/ct.jpg" className="" layout={{...}} height={[undefined]} width={[undefined]} alt={[undefined]} onError={[Function]} />
+                                                      <img src="/ct.jpg" className="" layout={{...}} height={[undefined]} width={[undefined]} alt={[undefined]} amp-bind={[undefined]} onError={[Function]} />
                                                     </div>
                                                   </Image>
                                                 </inject-Image>
